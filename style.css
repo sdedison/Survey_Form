@@ -1,0 +1,86 @@
+body {
+	background-color: #7395AE;
+	font-family: 'Poiret One', cursive;
+	font-weight: bolder;
+	color: white;
+	text-align: center;
+	min-width: 320px;
+}
+
+label {
+	text-align: right;
+}
+
+input, select, textarea {
+	margin-left: 20px;
+	min-width: 75px;
+}
+
+input[type="checkbox"], input[type="radio"]  {
+	margin-left: 0px;
+}
+
+ul, ol {
+	list-style-type: none;
+	padding: 0px;
+	text-align: left;
+	margin-left: 15px;
+}
+
+ul > li {
+	margin: 5px 0px;
+}
+
+input[type=submit] {
+	font-family: 'Poiret One', cursive;
+	font-size: 18px;
+	color: white;
+	background-color: #5d5c61;
+	height: 30px;
+	width: 75px;
+	margin-top: 20px;
+}
+
+
+.form-body {
+	background-color: #557A95;
+	width: 65%;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.input-row {
+	display: flex;
+	flex-direction: row;
+	align-content: stretch;
+	align-items: center;
+	justify-content: center;
+	height: 50px;
+	margin: 5px;
+}
+
+.larger {
+	height: 70px;
+}
+
+.input-row > * {
+	flex: 1 1 0;
+}
+
+.rating-container {
+	display: flex;
+	flex-direction: row;
+	align-content: stretch;
+	align-items: center;
+	justify-content: center;
+	margin: 5px;
+}
+
+.rating-container > p, ol, ul {
+	flex: 1 1 0;
+}
+
+.rating-label {
+	text-align: right;
+}
+

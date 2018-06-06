@@ -13,7 +13,7 @@ label {
 
 input, select, textarea {
 	margin-left: 20px;
-	min-width: 75px;
+	min-width: 10px;
 }
 
 input[type="checkbox"], input[type="radio"]  {
@@ -45,6 +45,7 @@ input[type=submit] {
 .form-body {
 	background-color: #557A95;
 	width: 65%;
+	max-width: 750px;
 	margin: 0 auto;
 	padding: 10px;
 }
@@ -61,6 +62,7 @@ input[type=submit] {
 
 .larger {
 	height: 70px;
+	margin-top: 30px;
 }
 
 .input-row > * {
@@ -82,5 +84,9 @@ input[type=submit] {
 
 .rating-label {
 	text-align: right;
+}
+
+#dream-track {
+	height: 80px;
 }
 
